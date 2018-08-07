@@ -35,7 +35,7 @@ public class ConfigCache {
 		DmpService sv = new DmpService();
 		SysParaDo[] paras = sv.getAllSysPara();
 		for(SysParaDo para :paras) {
-			cacheData.put(para.getCode(), para.getVlaue());
+			cacheData.put(para.getCode(), para.getValue());
 		}
 	}
 	

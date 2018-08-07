@@ -8,7 +8,8 @@ public class SysParaDo implements Serializable{
 	private int id;
 	private String code;
 	private String type;
-	private String vlaue;
+	private String name;
+	private String value;
 	private int state;
 	public int getId() {
 		return id;
@@ -28,11 +29,17 @@ public class SysParaDo implements Serializable{
 	public void setType(String type) {
 		this.type = type;
 	}
-	public String getVlaue() {
-		return vlaue;
+	public String getName() {
+		return name;
 	}
-	public void setVlaue(String vlaue) {
-		this.vlaue = vlaue;
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getValue() {
+		return value;
+	}
+	public void setValue(String value) {
+		this.value = value;
 	}
 	public int getState() {
 		return state;
@@ -40,4 +47,5 @@ public class SysParaDo implements Serializable{
 	public void setState(int state) {
 		this.state = state;
 	}
+	
 }
